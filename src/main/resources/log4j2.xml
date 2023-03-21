@@ -15,8 +15,8 @@
 
 		<!-- File Log Config -->
 		<RollingFile name="FileLog"
-			fileName="D:/Users/personal/log/daka/daka-log.log"
-			filePattern="D:/Users/personal/log/daka/daka-log_%d{yyyy-MM-dd}-%i.log.gz">
+			fileName="D:/Users/personal/log/taiwan_holiday_check/taiwan_holiday_check-log.log"
+			filePattern="D:/Users/personal/log/taiwan_holiday_check/taiwan_holiday_check-log_%d{yyyy-MM-dd}-%i.log.gz">
 			<PatternLayout>
 				<Pattern>${LOG_PATTERN}</Pattern>
 			</PatternLayout>

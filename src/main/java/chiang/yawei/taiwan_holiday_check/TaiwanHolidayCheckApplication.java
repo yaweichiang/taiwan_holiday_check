@@ -1,9 +1,9 @@
-package com.example.taiwan_holiday_check;
+package chiang.yawei.taiwan_holiday_check;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = { "chiang.yawei.taiwan_holiday_check" })
 public class TaiwanHolidayCheckApplication {
 
 	public static void main(String[] args) {
